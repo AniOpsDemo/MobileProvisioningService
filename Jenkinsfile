@@ -43,7 +43,7 @@ pipeline {
                 //ignore
              }
              sh "kubectl create -f selenium-standalone-slow.yml -n selenium"
-             sleep(time:10,unit:"SECONDS")
+             sleep(time:20,unit:"SECONDS")
              
             loadGeneratorName = env.STAGE_NAME;
             loadGeneratorStartTime = System.currentTimeMillis();
