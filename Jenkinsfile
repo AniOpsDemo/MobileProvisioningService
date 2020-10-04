@@ -50,7 +50,7 @@ pipeline {
             blazeMeterTest credentialsId:'aa2b41eb-23f3-4045-afe5-374a0b28d202',
             serverUrl:'https://blazemeter.ca.com',
             //testId:'6518001',
-            testId: '8556044',
+            testId: '8556570',
             notes:'',
             sessionProperties:'',
             jtlPath:'',
