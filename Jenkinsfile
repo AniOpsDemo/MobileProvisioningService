@@ -76,12 +76,12 @@ pipeline {
             script {
                
                 try {
-                     caapmplugin performanceComparatorProperties: "${env.WORKSPACE}/caapm-performance-comparator/properties/performance-comparator.properties",
+                    /* caapmplugin performanceComparatorProperties: "${env.WORKSPACE}/caapm-performance-comparator/properties/performance-comparator.properties",
                       loadGeneratorStartTime: "${loadGeneratorStartTime}",
                      loadGeneratorEndTime: "$loadGeneratorEndTime",
                      loadGeneratorName: "$loadGeneratorName",
                                     attribsStr: "$map";
-                 
+                 */
                      sleep(time:5,unit:"SECONDS")
                 } catch (err) {
                     echo "*** APM Plugin Marked the Build as Fail"
